@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+<h2>Registration</h2>
+<form action="/Register" method="post">
+
+    <label for="username">
+        Username:<br>
+    </label>
+    <input type="text" name="username" id="username">
+    <br>
+
+
+    <label for="password">
+        Password:<br>
+    </label>
+    <input type="text" name="password" id="password">
+    <br>
+
+
+    <label for="c.password">
+        Confirm Password:<br>
+    </label>
+    <input type="text" name="c.password" id="c.password">
+    <br>
+
+    <label for="type">
+        Type:<br>
+    </label>
+    <select id ="type" class="selectpicker" data-style="btn-info" name="selectpicker">
+        <optgroup >
+        <option value="admin">Admin</option>
+        <option value="customer">Customer</option>
+    </optgroup>
+      </select>
+      <br><br>
+
+    <!-- <label for="s.question">
+        Secret Question:<br>Your Personal Secret Q&A
+    </label> -->
+<!--    <input type="text" name="s.question" id="s.question" value="Your Secret Q&A" readonly>-->
+    <!-- <br><br>
+
+    <label for="hint">
+        Type Hint:<br>
+    </label>
+    <input type="text" name="hint" id="hint">
+    <br>
+
+    <label for="s.answer">
+        Secret Answer:<br>
+    </label>
+    <input type="text" name="s.answer" id="s.answer">
+    <br><br> -->
+
+
+    <!-- <label for="phone">
+        Phone:<br>
+    </label>
+    <input type="text" name="phone" id="phone">
+    <br>
+
+
+    <label for="email">
+        Email:<br>
+    </label>
+    <input type="text" name="email" id="email">
+
+    <br><br> -->
+    <input type="submit" name="register" value="Register">
+    <input type="submit" name="back" value="Back">
+
+</form>
+</body>
+</html>
